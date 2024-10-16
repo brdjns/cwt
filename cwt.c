@@ -45,8 +45,8 @@ print_help(void)
 {
   print_usage(stdout);
   char *const help = {
-      " --help, -h	  print this help information\n"
-      " --version, -v	print version information\n"
+      " --help, -h    print this help information\n"
+      " --version, -v print version information\n"
       " --kg, -k      weight in kilograms\n"
       " --lb, -p      weight in pounds\n",
   };
