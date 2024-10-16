@@ -1,0 +1,55 @@
+.\" SPDX-License-Identifier: MIT
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.nh
+.ad l
+.TH "cwt" "1" "2024-10-16"
+.PP
+.SH NAME
+.PP
+cwt - convert weight
+.PP
+.SH SYNOPSIS
+.PP
+\fBcwt\fR [\fB-k\fR \fIweight\fR] [\fB-p\fR \fIweight\fR] [\fB--help\fR] [\fB--version\fR]
+.PP
+.SH DESCRIPTION
+.PP
+\fBcwt\fR converts between U.\&S.\& customary pounds (lb) and S.\&I.\& kilograms (kg).\&
+.PP
+.SH OPTIONS
+.PP
+\fB-k\fR \fB--kg\fR \fIweight\fR
+.RS 4
+Convert \fIweight\fR in kilograms to pounds.\&
+.PP
+.RE
+\fB-p\fR \fB--lb\fR \fIweight\fR
+.RS 4
+Convert \fIweight\fR in pounds to kilograms.\&
+.PP
+.RE
+\fB-h\fR \fB--help\fR
+.br
+	Print help information on the standard output and exit.\&
+.PP
+\fB-v\fR \fB--version\fR
+.RS 4
+Print version informatin on the standard output and exit.\&
+.PP
+.RE
+.SH EXIT STATUS
+.PP
+\fBcwt\fR exits 0 on sucessful conversion, >0 on error.\&
+.PP
+.SH BUGS
+.PP
+Probably many.\&
+.PP
+.SH SEE ALSO
+.PP
+\fBunits\fR(1)
+.PP
+.SH AUTHOR
+.PP
+\fBcwt\fR was written and is maintained by Bradley Jones <brdjns@gmx.\&us>.\&
