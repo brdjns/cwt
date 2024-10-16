@@ -68,7 +68,8 @@ kg_to_lb(double d)
   return lb;
 }
 
-static double read_number(char *arg)
+static double
+read_number(char *arg)
 {
   char *end;
   errno = 0;
